@@ -1,7 +1,13 @@
 package org.viators.valid;
 
-
 import java.math.BigDecimal;
+/*
+    Definition:
+    The Liskov Substitution Principle states that if 'S' is a subtype of 'T', then objects of type T should
+    be replaceable with objects of type S without altering the correctness of the program. In simpler terms,
+    if a class is derived from another class, instances of the derived class should be able to substitute
+    instances of the base class without causing errors or unexpected behavior.
+ */
 
 public class MainLSP {
 
